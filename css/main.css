@@ -32,10 +32,6 @@ body {
   color: white;
 }
 
-a hover: {
-  color: red;
-}
-
 #background-video {
   background-color: #E8E8E8;
   padding-top: 63px;
@@ -60,11 +56,11 @@ a hover: {
 
 .page-footer {
   background-color: #E8E8E8;
+  font-family: cursive;
   text-align: center;
 }
 
-#footer h5 {
-  font-family: cursive;
+.page-footer h5{
   padding: 10px 0;
-  margin: auto;
+  margin: 0;
 }
