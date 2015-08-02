@@ -6,8 +6,8 @@ body {
   background-color: black;
   border-bottom: 1px solid black;
   position: fixed;
-  margin: 0;
   width: 100%;
+  margin: 0;
   z-index: 1;
 }
 
@@ -21,24 +21,22 @@ body {
   display: inline-block;
   margin-left: 20px;
   margin-top: 18px;
-
 }
 
 #menu-bar a {
   text-decoration: none;
   font-family: fantasy;
-  font-weight: bold;
   font-size: 18px;
   color: white;
 }
 
 #background-video {
-  background-color: #E8E8E8;
-  padding-top: 63px;
+  padding-top: 62px;
 }
 
 #profile-photo {
   position: absolute;
+  float: none;
   top: 200px;
   left: 515px;
 }
@@ -54,13 +52,27 @@ body {
   color: black;
 }
 
+.cover-photo img {
+  margin-top: 63px;
+  width: 1210px;
+  height: 200px;
+}
+
+.paragraph-about {
+  margin: 20px 50px;
+  font-size: 20px;
+  height: 500px;
+
+}
+
 .page-footer {
   background-color: #E8E8E8;
   font-family: cursive;
   text-align: center;
+  overflow: hidden;
 }
 
-.page-footer h5{
+.page-footer h5 {
   padding: 10px 0;
   margin: 0;
 }
