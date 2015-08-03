@@ -1,5 +1,6 @@
 body {
   margin: 0 auto;
+  width: 100%;
 }
 
 .page-header {
@@ -19,7 +20,7 @@ body {
 
 #menu-bar li {
   display: inline-block;
-  margin-left: 20px;
+  margin-left: 15px;
   margin-top: 18px;
 }
 
@@ -52,24 +53,92 @@ body {
   color: black;
 }
 
-.cover-photo img {
+.about-cover img {
   margin-top: 63px;
-  width: 1210px;
+  width: 100%;
   height: 200px;
 }
 
-.paragraph-about {
-  margin: 20px 50px;
+.paragraph-about h3 {
+  font-family: serif;
+  margin: 30px 30px;
+  font-weight: bold;
   font-size: 20px;
-  height: 500px;
+}
 
+.paragraph-about p {
+  text-align: justify;
+  font-family: serif;
+  margin: 20px 50px;
+  font-size: 18px;
+  color: black;
+  text-indent: 40px;
+}
+
+.resume-cover {
+  background-color: lightgray;
+}
+
+.resume-cover img {
+  border-bottom: 5px solid black;
+  margin-top: 63px;
+  height: 200px;
+  float: left;
+}
+
+.paragraph-resume {
+  background-color: lightgray;
+  padding-top: 1px;
+  height: 1610px;
+}
+
+.paragraph-resume h3 {
+  font-family: serif;
+  margin-left: 20px;
+  margin-top: 280px;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+}
+.paragraph-resume h2 {
+  font-family: serif;
+  text-align: center;
+  margin: 20px 30px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.paragraph-resume img {
+  margin-left: 450px;
+}
+
+.paragraph-resume dl {
+  text-align: center;
+  font-family: serif;
+  font-size: 18px;
+}
+
+.reach-contact {
+  margin-top: 90px;
+}
+
+.reach-contact h1, h2 {
+  font-family: serif;
+  font-size: 30px;
+}
+
+.form-area {
+  margin-bottom: 100px;
+}
+.form-area h3 {
+  font-family: serif;
+  font-size: 30px;
 }
 
 .page-footer {
   background-color: #E8E8E8;
   font-family: cursive;
   text-align: center;
-  overflow: hidden;
 }
 
 .page-footer h5 {
