@@ -75,21 +75,34 @@ body {
   text-indent: 40px;
 }
 
-.resume-cover {
-  background-color: lightgray;
+.paragraph-resume {
+  padding-top: 1px;
+}
+
+.skill-bg {
+  border-bottom: 1px solid black;
+  background-color: #F5FFFA;
+}
+
+.edu-bg {
+  border-bottom: 1px solid black;
+  background-color: #F5F5DC;
+  height: 435px;
+  padding-top: 1px;
+}
+
+.expro-bg {
+  background-color: #F0FFFF;
+  height: 640px;
+  padding-top: 10px;
 }
 
 .resume-cover img {
   border-bottom: 5px solid black;
   margin-top: 63px;
+  margin-bottom: 20px;
   height: 200px;
   float: left;
-}
-
-.paragraph-resume {
-  background-color: lightgray;
-  padding-top: 1px;
-  height: 1610px;
 }
 
 .paragraph-resume h3 {
@@ -103,13 +116,13 @@ body {
 .paragraph-resume h2 {
   font-family: serif;
   text-align: center;
-  margin: 20px 30px;
   font-weight: bold;
   font-size: 18px;
 }
 
 .paragraph-resume img {
   margin-left: 450px;
+  margin-bottom: 30px;
 }
 
 .paragraph-resume dl {
